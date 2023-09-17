@@ -14,7 +14,7 @@ var app = express();
 // set up mongoose connection
 const mongoose = require('mongoose');
 mongoose.set("strictQuery", false);
-const mongoDB = "mongodb+srv://vhfraga007:12062006vh@cluster0.8ngc8te.mongodb.net/?retryWrites=true&w=majority";
+const mongoDB = "mongodb+srv://vhfraga007:1yeUwE3au680X2HW@cluster0.8ngc8te.mongodb.net/?retryWrites=true&w=majority";
 
 main().catch((err) => console.log(err));
 async function main() {
